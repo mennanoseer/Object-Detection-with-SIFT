@@ -1,7 +1,7 @@
 import argparse
 import os
 import glob
-from image_detector import detect_multiple_objects
+from helpers.image_detector import detect_multiple_objects
 
 def main():
     """
