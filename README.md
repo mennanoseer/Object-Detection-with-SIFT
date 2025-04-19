@@ -76,7 +76,7 @@ Detects several query objects in a target image simultaneously:
 
 ### 2. Single Object Detection
 Detects one specific object in a target image:
-![Single Object Detection](images/img2_detected.jpg) 
+![Single Object Detection](images/img2_detected.png) 
 
 ### Video Detection
 See the [videos folder](videos/) for example detection results in video format.
