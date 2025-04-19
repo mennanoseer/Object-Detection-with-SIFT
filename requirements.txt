@@ -1,0 +1,4 @@
+opencv-python>=4.5.5.64
+opencv-contrib-python>=4.5.5.64  # Includes SIFT and other contrib modules
+numpy>=1.21.0
+matplotlib>=3.5.0  # For displaying results
