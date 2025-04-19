@@ -84,17 +84,21 @@ See the [videos folder](videos/) for example detection results in video format.
 ## Project Structure
 
 ```
-object-detection-sift/
+object-detection-with-sift/
 │
-├── object_detection_image.py       # Main script for image detection
-├── object_detection_video.py       # Main script for video detection
-├── image_detector.py               # Core image detection logic
-├── video_detector.py               # Core video detection logic
-├── image_processor.py              # Image processing utilities
-├── video_processor.py              # Video processing utilities
-├── utils.py                        # Helper functions and validation
-├── images/                         # images folder
-├── videos/                         # videos folder
-├── README.md                       # This file
-└── requirements.txt                # Python dependencies
+├── helpers/
+│   ├── image_detector.py         # Core image feature detection and matching algorithms
+│   ├── image_processor.py        # Image preprocessing and enhancement utilities
+│   ├── utils.py                  # Common helper functions and validation tools
+│   ├── video_detector.py         # Core video object detection implementation
+│   └── video_processor.py        # Video frame processing and manipulation utilities
+├── images/                       # Directory for query and target images
+├── videos/                       # Directory for video files
+│   ├── nature_detected.mp4       # Output video with object detection visualization
+│   ├── nature.mp4                # Source video for object detection
+│   └── naturequery.png           # Query image containing the object to find
+├── object_detection_image.py     # Main script for image-based object detection
+├── object_detection_video.py     # Main script for video-based object detection
+├── README.md                     # Project documentation and usage instructions
+└── requirements.txt              # Required Python packages and dependencies
 ```
