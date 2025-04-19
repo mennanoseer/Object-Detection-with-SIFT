@@ -68,10 +68,15 @@ python object_detection_video.py --query object.jpg --video input.mp4 --save
 - `--ransac`: RANSAC threshold for homography (default: 5.0)
 - `--save`: Save output video (optional)
 
-## Example Output
+## Example Outputs
 
-### Image Detection
-![Example Detection Output](images/output.jpg)
+### 1. Multiple Object Detection
+Detects several query objects in a target image simultaneously:
+![Multi-Object Detection](images/output.jpg)
+
+### 2. Single Object Detection
+Detects one specific object in a target image:
+![Single Object Detection](images/img2_detected.jpg) 
 
 ### Video Detection
 See the [videos folder](videos/) for example detection results in video format.
