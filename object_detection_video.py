@@ -1,6 +1,6 @@
 import cv2
 import argparse
-from video_processor import (
+from helpers.video_processor import (
     _validate_input_files, _preprocess_query_image, _create_output_path,
     _initialize_video, _initialize_video_writer, _extract_query_features,
     _initialize_matcher, _setup_display_window, _process_video_frames,
